@@ -208,7 +208,7 @@ if(SERVER) then
 		if not (dupe and dupe.Entities) then return false end
 
 		if(dupe.Pasting or dupe.Downloading) then
-			AdvDupe2.Notify(ply,"Advanced Duplicator 2 is busy.",NOTIFY_ERROR)
+			AdvDupe2.Notify(ply,"Turbo Advanced Duplicator 2 is busy.",NOTIFY_ERROR)
 			return false
 		end
 
@@ -250,7 +250,7 @@ if(SERVER) then
 		if not dupe then dupe = {}; ply.AdvDupe2 = dupe end
 
 		if(dupe.Pasting or dupe.Downloading) then
-			AdvDupe2.Notify(ply,"Advanced Duplicator 2 is busy.", NOTIFY_ERROR)
+			AdvDupe2.Notify(ply,"Turbo Advanced Duplicator 2 is busy.", NOTIFY_ERROR)
 			return false
 		end
 
@@ -990,7 +990,7 @@ if(CLIENT) then
 		return AdvDupe2.Rotation
 	end
 
-	language.Add( "Tool.advdupe2.name",	"Advanced Duplicator 2" )
+	language.Add( "Tool.advdupe2.name",	"Turbo Advanced Duplicator 2" )
 	language.Add( "Tool.advdupe2.desc",	"Duplicate things." )
 	language.Add( "Tool.advdupe2.0",	"Primary: Paste, Secondary: Copy, Secondary+World: Select/Deselect All, Secondary+Shift: Area copy." )
 	language.Add( "Tool.advdupe2.1",	"Primary: Paste, Secondary: Copy an area, Reload: Autosave an area, Secondary+Shift: Cancel." )
@@ -1611,7 +1611,7 @@ if(CLIENT) then
 	function TOOL.BuildCPanel(panel)
 		panel:ClearControls()
 		panel:AddControl("Header", {
-			Text = "Advanced Duplicator 2",
+			Text = "Turbo Adv Duplicator 2",
 			Description = "Duplicate stuff."
 		})
 		local function tryToBuild()
@@ -1667,7 +1667,7 @@ if(CLIENT) then
 
 			surface.SetTextColor( 255, 255, 255, 255 )
 
-			draw.SimpleText("Advanced Duplicator 2", "AD2TitleFont", 128, 50, CWhite, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP)
+			draw.SimpleText("Turbo Adv Duplicator 2", "AD2TitleFont", 128, 50, CWhite, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP)
 			draw.SimpleText(text, "AD2Font", 128, 128, CWhite, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 			if(state) then
 				draw.RoundedBox( 6, 32, 178, 192, 28, Color( 255, 255, 255, 150 ) )
@@ -1843,11 +1843,11 @@ if(CLIENT) then
 	end)
 
 	net.Receive("AdvDupe2_ReportModel", function()
-		print("Advanced Duplicator 2: Invalid Model: "..net.ReadString())
+		print("Turbo Advanced Duplicator 2: Invalid Model: "..net.ReadString())
 	end)
 
 	net.Receive("AdvDupe2_ReportClass", function()
-		print("Advanced Duplicator 2: Invalid Class: "..net.ReadString())
+		print("Turbo Advanced Duplicator 2: Invalid Class: "..net.ReadString())
 	end)
 
 	net.Receive("AdvDupe2_ResetDupeInfo", function()
