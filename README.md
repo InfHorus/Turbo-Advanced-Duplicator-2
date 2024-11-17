@@ -1,3 +1,5 @@
+Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3367103139
+
 # 🚀 Turbo Advanced Duplicator 2
 
 A high-performance fork of Advanced Duplicator 2 that improves networking and server performance through the use of gm_express.
@@ -38,7 +40,7 @@ A high-performance fork of Advanced Duplicator 2 that improves networking and se
 ## Installation
 
 ### Workshop Installation (Recommended)
-1. Subscribe to [Turbo Advanced Duplicator 2](https://steamcommunity.com/sharedfiles/filedetails/?id=XXXXXXX) on the Workshop or add it to your server collection (ensure unsubscribing from the original adv-dupe2)
+1. Subscribe to [Turbo Advanced Duplicator 2](https://steamcommunity.com/sharedfiles/filedetails/?id=3367103139) on the Workshop or add it to your server collection (ensure unsubscribing from the original adv-dupe2)
 2. The addon will automatically downloaded
 3. Restart your server to ensure proper installation
 
