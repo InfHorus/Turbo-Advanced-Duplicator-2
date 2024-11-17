@@ -75,10 +75,6 @@ A high-performance fork of Advanced Duplicator 2 that improves networking and se
 
 For issues, feature requests, or contributions, feel free to contact me or open an issue
 
-## License
-
-Same as Advanced Duplicator 2 - MIT License
-
 ---
 
 *Turbo Advanced Duplicator 2 - Enhanced duplication through external networking.*
