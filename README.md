@@ -68,8 +68,8 @@ A high-performance fork of Advanced Duplicator 2 that improves networking and se
 
 ## Credits
 
-- Original Advanced Duplicator 2 Team
-- gm_express developers (CFC-Servers)
+- Original Advanced Duplicator 2 Team (https://github.com/wiremod/advdupe2)
+- gm_express developers (CFC-Servers) (https://github.com/CFC-Servers/gm_express)
 
 ## Support
 
